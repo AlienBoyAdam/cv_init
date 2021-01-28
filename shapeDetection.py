@@ -76,7 +76,7 @@ imgCanny = cv2.Canny(imgBlur, 50, 50) # find edges
 getContours(imgCanny)
 
 imgBlank = np.zeros_like(img)
-imgStack = stackImages(0.6, ([img, imgGray, imgBlur], [imgCanny, imgContour, imgBlank]))
+imgStack = stackImages(1, ([img, imgGray, imgBlur], [imgCanny, imgContour, imgBlank]))
 
 # cv2.imshow('Original', img)
 # cv2.imshow('Gray', imgGray)

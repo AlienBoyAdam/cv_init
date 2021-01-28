@@ -38,6 +38,6 @@ while True:
     cv2.imshow('Original', img)
     cv2.imshow('HSV', imgHSV)
     cv2.imshow('Mask', mask)
-    cv2.imshow('result', imgresult)
+    cv2.imshow('result', imgResult)
 
     cv2.waitKey(1)
